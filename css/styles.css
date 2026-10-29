@@ -38,13 +38,14 @@ main {
     align-items: center;
     gap: 40px;
     width: 100%;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 30px;
+    max-width: 95%;
+    margin: 40px 0 40px 2%;
+    padding: 0 20px;
 }
 
 .logo{
-    align-self: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 15px;
     max-width: 180px;
     height: auto;
@@ -55,7 +56,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;  
+    text-align: justify; 
+    margin-top: 30px;
 }
 
 .presentacion h1 {
@@ -71,7 +73,7 @@ main {
 .presentacion h2 {
     font-family: 'Calibri', 'Arial', sans-serif;
     color: #bc7770;              
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 4px;         
     margin-bottom: 5px;
@@ -79,9 +81,19 @@ main {
 
 .presentacion p {
     text-align: justify;
+    font-family: serif;
     color: #555e63;            
     font-size: 25px;
     line-height: 1.8;       
+}
+
+.producto-info {
+    font-family: serif;
+    text-align: justify;
+    color: #555e63;            
+    font-size: 25px;
+    line-height: 0.5;      
+    margin-bottom: 12px;
 }
 
 .carrusel {
@@ -108,7 +120,7 @@ main {
     margin-top: 15px;         
 }
 
-.carrusel button {
+.carrusel button, .btn-comprar {
     background-color: #bc7770; 
     color: white;
     border: none;
@@ -117,7 +129,9 @@ main {
     font-size: 1rem;
     font-weight: bold;
     border-radius: 4px;            
-    transition: background 0.3s;
+    display: flex;
+    gap: 20px;                
+    margin-top: 15px;   
 }
 
 .carrusel button:hover {
@@ -126,10 +140,10 @@ main {
 
 #imagen-carrusel{
     width: 80%;
-    height: 60%;
+    height: 380px;
     max-height: 480px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .img-grupo{
@@ -150,7 +164,13 @@ main {
     flex-wrap: wrap;
 }
 
-
+hr{
+    width: 100%;
+    display: block;
+    border: medium;
+    border-top: 1px solid #bc7770;
+    margin: 40px 0;
+}
 
    
 
