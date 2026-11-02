@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="utf-8"> </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Camila - Pastelería y Panificados</title>
+    <link rel="stylesheet" href="css/styles.css">
+  
+</head> 
+<body>
+        <header> 
+        <nav> 
+            <ul class="menu"> 
+            <li> <a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li> 
+            <li><a href="contacto.html" class="activo">Contacto</a></li> 
+        </ul> 
+        </nav> 
+    </header> 
+    <main> 
+         <div class="logo">
+        <img src="img/logo.jpg" alt="Logo Dulce Camila" class="logo">
+        </div>
+        
+    <section class="presentacion">      
+        <h1>Dulce Camila</h1> 
+        <h2>PASTELERÍA Y PANIFICADOS <br>
+            HORNEADO CON AMOR Y DEDICACIÓN </h2>      
+            <ul id="lista">  
+            <li>Desayunos</li>
+            <li>Meriendas</li>
+            <li>Tortas</li>
+            <li>Cumpleaños </li>
+            <li>Encargar tus pedidos</li>
+            <li>Pedir otros diseños</li>
+            <li>Mesas dulces para eventos </li> 
+            </ul>
+        <p> Podes escribirnos para: 
+        </p>   
+    </section>
+    <div class="formulario">
+    <form action="procesar.php" method="get" id="miFormulario"> 
+
+        <div class="campo">
+        <label for="nombre"> Nombre: </label> 
+        <input type="text" name="nombre" id="nombre" /> 
+        </div>
+  
+        <div class="campo">
+        <label for="email"> Mail: </label> 
+        <input type="email" name="email" id="email"/>
+        </div>
+
+        <div class="campo">
+        <label for="telefono"> Telefono: </label> 
+        <input type="tel" name="telefono" id="telefono"  /> 
+        </div>
+
+        <div class="campo">
+        <label for="consulta"> Escribir aquí la consulta o pedido: </label> 
+        <textarea id="consulta" name="consulta" rows="8">  </textarea>
+        </div>
+
+        <div class="boton">
+        <input type="submit"/>
+        </div>
+    </form>
+        <div id="contenedor-resumen"></div>
+    </div>
+    
+    </main> 
+    <footer> 
+        <p>&copy; 2026 Pastelería Dulce Camila By Evelin</p> 
+    </footer> 
+    <script src="js/contacto.js"></script> 
+</body>
+</html>
