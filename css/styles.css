@@ -198,7 +198,7 @@ footer{
 
 .img-grupo .producto-img{
     flex: 1 1 220px;
-    max-width:32%;
+    max-width:100%;
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
