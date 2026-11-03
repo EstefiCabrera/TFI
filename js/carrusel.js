@@ -1,8 +1,7 @@
 
 const imagenes = [
     { src: "img/Desayunos/box-combinado.jpeg", alt: "Box desayuno dulce y salado"},
-    { src: "img/Desayunos/box-dulce.jpeg", alt: "Box desayuno dulce"},
-    { src: "img/Desayunos/box-infantil.jpeg", alt: "Box desayuno infantil opción 1"},                               
+    { src: "img/Desayunos/box-dulce.jpeg", alt: "Box desayuno dulce"},                            
     { src: "img/Desayunos/box-infantil2.jpeg", alt: "Box desayuno infantil opción 2"},
     
     { src: "img/Halloween/box-halloween.jpeg", alt: "Box Halloween"},
@@ -38,7 +37,8 @@ const imagenes = [
     { src:  "img/Tortas/torta-negra15.jpeg", alt: "Torta negra con número 15"},
     { src:  "img/Tortas/torta-selva.jpeg", alt: "Selva negra"},
     { src:  "img/Tortas/torta-verde.jpeg", alt: "Torta de colores decorada con mariposas y rosas"},
-    { src:  "img/Tortas/torta.jpeg", alt: "Torta decorada con chocolates"}
+    { src:  "img/Tortas/torta.jpeg", alt: "Torta decorada con chocolates"},
+    { src:  "img/logo.jpg", alt: "Logo"}
 ];
 
 let indiceActual = 0;
